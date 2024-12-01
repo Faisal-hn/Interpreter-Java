@@ -27,7 +27,7 @@ public class Main {
         try {
 //            Path path = Paths.get("src/main/java/scanning/" + filename);
             Path path = Paths.get(filename);
-            System.out.println(path.toAbsolutePath());
+//            System.out.println(path.toAbsolutePath());
             byte[] bytes = Files.readAllBytes(path);
             fileContents = new String(bytes, Charset.defaultCharset());
         } catch (IOException e) {
